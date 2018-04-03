@@ -16,7 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DA53B0C204663C00049EEA1 /* 导读.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "导读.h"; sourceTree = "<group>"; };
+		4DA53B0C204663C00049EEA1 /* 实务.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "实务.h"; sourceTree = "<group>"; };
+		4DB6455D206DF4190093DC7D /* 管理.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "管理.h"; sourceTree = "<group>"; };
+		4DB6455F206DF6B20093DC7D /* 经济.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "经济.h"; sourceTree = "<group>"; };
 		4DDBFF9520459775004A409A /* Municipal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Municipal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDBFF9820459775004A409A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DDBFF9920459775004A409A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,9 +47,25 @@
 		4DA53B0B204663A30049EEA1 /* 实务 */ = {
 			isa = PBXGroup;
 			children = (
-				4DA53B0C204663C00049EEA1 /* 导读.h */,
+				4DA53B0C204663C00049EEA1 /* 实务.h */,
 			);
 			path = "实务";
+			sourceTree = "<group>";
+		};
+		4DB6455C206DF3FC0093DC7D /* 管理 */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6455D206DF4190093DC7D /* 管理.h */,
+			);
+			path = "管理";
+			sourceTree = "<group>";
+		};
+		4DB6455E206DF6A60093DC7D /* 经济 */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6455F206DF6B20093DC7D /* 经济.h */,
+			);
+			path = "经济";
 			sourceTree = "<group>";
 		};
 		4DDBFF8C20459774004A409A = {
@@ -69,6 +87,8 @@
 		4DDBFF9720459775004A409A /* Municipal */ = {
 			isa = PBXGroup;
 			children = (
+				4DB6455E206DF6A60093DC7D /* 经济 */,
+				4DB6455C206DF3FC0093DC7D /* 管理 */,
 				4DA53B0B204663A30049EEA1 /* 实务 */,
 				4DDBFFB0204597E2004A409A /* 法规 */,
 				4DDBFF9820459775004A409A /* AppDelegate.h */,
