@@ -44,6 +44,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D352F1A208C483B00FC3429 /* 图文资料 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图文资料";
+			sourceTree = "<group>";
+		};
 		4DA53B0B204663A30049EEA1 /* 实务 */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +62,7 @@
 		4DB6455C206DF3FC0093DC7D /* 管理 */ = {
 			isa = PBXGroup;
 			children = (
+				4D352F1A208C483B00FC3429 /* 图文资料 */,
 				4DB6455D206DF4190093DC7D /* 管理.h */,
 			);
 			path = "管理";
